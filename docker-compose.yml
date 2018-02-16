@@ -1,0 +1,8 @@
+version: '3'
+services:
+  backend:
+    build: rails-realworld-example-app/.
+  frontend:
+    build: react-redux-realworld-example-app/.
+    ports:
+     - "4100:4100"
